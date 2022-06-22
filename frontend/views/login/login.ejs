@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/booking.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/login.css" />
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous"
+        />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/login.js"></script>
+  </head>
+  <body>
+    <div id="message"></div>
+    <section class="nav">
+      <div class="logo">
+        <a href="/"><img src="./assets/logo.png" alt="" /></a>
+      </div>
+      <div class="text">
+        <ul>
+          <li><a href="/programs">PROGRAMS</a></li>
+          <li><a href="/companies">TOUR COMPANIES</a></li>
+          <li><a href="/booking">BOOKING</a></li>
+        </ul>
+        <a href="/contact"><button><i class="fa-solid fa-phone"></i> 1-866-393-5158</button></a>
+      </div>
+    </section>
+    <div class="main_cont shadow-lg">
+			<div class="sec_cont">
+				<form id="form1" method="POST">
+					<div class="box1">
+						<div class="Logo">
+							<img
+								src="./assets/logo.png"
+								alt="Dolphin Cove"
+							/>
+						</div>
+						<div class="field1">
+							<input
+								type="email"
+                name="email"
+								placeholder="Email"
+								class="inputs"
+							/>
+						</div>
+						<div class="field2">
+							<input
+								type="password"
+                name="password"
+								placeholder="Password"
+                minlength="8"
+								class="inputs"
+							/>
+						</div>
+
+						<div class="btn_box">
+							<input type="submit" value="Log In" class="btnn" />
+						</div>
+
+						<div class="pwrd">
+							<p>Forget Password?</p>
+						</div>
+					</div>
+					<div class="box2"></div>
+				</form>
+			</div>
+		</div>
+    </section>    
+  </body>
+</html>
